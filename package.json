@@ -1,0 +1,20 @@
+{
+  "name": "powerful-qqbot-rinna",
+  "version": "1.0",
+  "description": "A powerful Bot for QQ",
+  "author": "YosakuraTohu",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node ./process/main.js",
+    "lint": "eslint -c .eslintrc.yaml"
+  },
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.42.0",
+    "icqq": "^0.3.15",
+    "typescript": "^5.1.3"
+  }
+}

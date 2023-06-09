@@ -1,0 +1,5 @@
+node_modules
+dist
+process/**/*
+!process/main.js
+yarn.lock
